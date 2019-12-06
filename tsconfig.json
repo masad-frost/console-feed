@@ -4,10 +4,11 @@
     "module": "commonjs",
     "target": "es3",
     "lib": ["es6", "dom"],
-    "inlineSourceMap": true,
     "jsx": "react",
     "moduleResolution": "node",
     "rootDir": ".",
+    "declaration": true,
+    "sourceMap": true,
     "forceConsistentCasingInFileNames": true,
     "types": ["jest"]
   }
